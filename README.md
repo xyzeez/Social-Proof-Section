@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL here](https://your-solution-url.com)
+- Solution URL: [URL here](https://www.frontendmentor.io/solutions/social-proof-section-GnCS-qOIeu)
 - Live Site URL: [URL here](https://femc-social-proof-section.netlify.app/)
 
 ## My process
