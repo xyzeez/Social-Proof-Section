@@ -192,10 +192,12 @@ body {
 
   .star2 {
     align-self: center;
+    /* transform: translateX(4rem); */
   }
 
   .star3 {
     align-self: flex-end;
+    /* transform: translateX(8rem); */
   }
 
   .down {
@@ -219,10 +221,12 @@ body {
   }
 
   .test2 {
+    /* transform: translateY(4rem); */
     align-self: center;
   }
 
   .test3 {
+    /* transform: translateY(8rem); */
     align-self: flex-end;
   }
 }
