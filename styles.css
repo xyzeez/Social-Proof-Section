@@ -48,7 +48,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
   /*primary colors*/
   --dark-magenta: hsl(300, 43%, 22%);
-  --pink: hsl(333, 80%, 67%);
+  --pink: hsla(333, 80%, 67%, 0.8);
 
   /*neutral colors*/
   --white: hsl(0, 0%, 100%);
@@ -85,7 +85,7 @@ main {
 
 .hero {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
   gap: 2.5rem;
   align-items: center;
   justify-content: center;
@@ -149,7 +149,7 @@ main {
 
 .testimonials {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
   gap: 1.25rem;
   align-items: center;
   justify-content: center;
@@ -160,7 +160,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  max-width: 21.88rem;
+  max-width: 31.88rem;
   text-align: left;
   overflow: hidden;
   border-radius: 0.5rem;
@@ -187,14 +187,12 @@ main {
   font-weight: var(--normal);
   line-height: 1;
   color: var(--pink);
-  opacity: 0.8;
 }
 
 .testimonial__name {
   font-size: 1.125rem;
   font-weight: var(--medium);
   color: var(--white);
-  opacity: 1;
 }
 
 .testimonial__quote {
@@ -202,13 +200,14 @@ main {
   color: var(--white);
 }
 
-@media screen and (min-width: 1139px) {
+@media screen and (min-width: 900px) {
 
   body {
     background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
   }
   
   .hero {
+    flex-direction: row;
     justify-content: space-between;
   }
   
@@ -231,6 +230,14 @@ main {
 
   .rating-3 {
     align-self: flex-end;
+  }
+
+  .testimonials {
+    flex-direction: row;
+  }
+
+  .testimonials__testimonial {
+    max-width: 21.88rem;
   }
 
   .testimonial-2 {
