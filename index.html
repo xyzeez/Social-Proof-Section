@@ -6,95 +6,92 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
         <title>Frontend Mentor | Social proof section</title>
         <link rel="stylesheet" href="styles.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <main>
-            <div class="up">
-                <div class="lup">
-                    <div class="lup_header">
-                        <h1>10,000+ of our users love our products.</h1>
+            <section class="hero">
+                <div class="hero__texts">
+                    <h1 class="hero__texts-heading">10,000+ of our users love our products.</h1>
+                    <p class="hero__texts-paragraph">
+                        We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.
+                    </p>
+                </div>
+                <div class="hero__ratings-list">
+                    <div class="hero__ratings-listitem rating-1">
+                        <div class="hero__stars" aria-hidden="true">
+                            <img class="star star-1" src="./images/icon-star.svg" alt="">
+                            <img class="star star-2" src="./images/icon-star.svg" alt="">
+                            <img class="star star-3" src="./images/icon-star.svg" alt="">
+                            <img class="star star-4" src="./images/icon-star.svg" alt="">
+                            <img class="star star-5" src="./images/icon-star.svg" alt="">
+                        </div>
+                        <p class="rating__paragraph">Rated 5 Stars in Reviews</p>
                     </div>
-                    <div class="lup_p">
-                        <p>We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.
-                        </p>
+                    <div class="hero__ratings-listitem rating-2">
+                        <div class="hero__stars" aria-hidden="true">
+                            <img class="star star-1" src="./images/icon-star.svg" alt="">
+                            <img class="star star-2" src="./images/icon-star.svg" alt="">
+                            <img class="star star-3" src="./images/icon-star.svg" alt="">
+                            <img class="star star-4" src="./images/icon-star.svg" alt="">
+                            <img class="star star-5" src="./images/icon-star.svg" alt="">
+                        </div>
+                        <p class="rating__paragraph">Rated 5 Stars in Report Guru</p>
+                    </div>
+                    <div class="hero__ratings-listitem rating-3">
+                        <div class="hero__stars" aria-hidden="true">
+                            <img class="star star-1" src="./images/icon-star.svg" alt="">
+                            <img class="star star-2" src="./images/icon-star.svg" alt="">
+                            <img class="star star-3" src="./images/icon-star.svg" alt="">
+                            <img class="star star-4" src="./images/icon-star.svg" alt="">
+                            <img class="star star-5" src="./images/icon-star.svg" alt="">
+                        </div>
+                        <p class="rating__paragraph">Rated 5 Stars in BestTech</p>
                     </div>
                 </div>
-                <div class="rup">
-                    <div class="stars star1">
-                        <div class="stars_icons">
-                            <img alt="" aria-hidden=“true” src="./images/icon-star.svg">
-                            <img alt="" aria-hidden=“true” src="./images/icon-star.svg">
-                            <img alt="" aria-hidden=“true” src="./images/icon-star.svg">
-                            <img alt="" aria-hidden=“true” src="./images/icon-star.svg">
-                            <img alt="" aria-hidden=“true” src="./images/icon-star.svg">
-                        </div>
-                        <p class="stars_p">Rated 5 Stars in Reviews</p>
-                    </div>
-                    <div class="stars star2">
-                        <div class="stars_icons">
-                            <img alt="" aria-hidden=“true” src="./images/icon-star.svg">
-                            <img alt="" aria-hidden=“true” src="./images/icon-star.svg">
-                            <img alt="" aria-hidden=“true” src="./images/icon-star.svg">
-                            <img alt="" aria-hidden=“true” src="./images/icon-star.svg">
-                            <img alt="" aria-hidden=“true” src="./images/icon-star.svg">
-                        </div>
-                        <p class="stars_p">Rated 5 Stars in Report Guru</p>
-                    </div>
-                    <div class="stars star3">
-                        <div class="stars_icons">
-                            <img alt="" aria-hidden=“true” src="./images/icon-star.svg">
-                            <img alt="" aria-hidden=“true” src="./images/icon-star.svg">
-                            <img alt="" aria-hidden=“true” src="./images/icon-star.svg">
-                            <img alt="" aria-hidden=“true” src="./images/icon-star.svg">
-                            <img alt="" aria-hidden=“true” src="./images/icon-star.svg">
-                        </div> 
-                        <p class="stars_p">Rated 5 Stars in BestTech</p>
-                    </div>
-                </div>
-            </div>
-            <div class="down">
-                <div class="testimonials test1">
-                    <figure class="theader">
-                        <img alt="Headshot of Colton" src="./images/image-colton.jpg">
-                        <figcaption class="th_span">
-                            <p class="th_p1">Colton Smith</p>
-                            <p class="th_p2">Verified Buyer</p>
+            </section>
+            <h2 class="sr-only">Testimonials</h2>
+            <section class="testimonials">
+                <article class="testimonials__testimonial testimonial-1">
+                    <figure class="testimonial__header">
+                        <img class="testimonial__avatar" src="./images/image-colton.jpg" alt="Colton Smith's Headshot">
+                        <figcaption class="testimonial__info">
+                            <strong class="testimonial__name">Colton Smith</strong>Verified Buyer
                         </figcaption>
                     </figure>
-                    <blockquote class="tcontent">
+                    <blockquote class="testimonial__quote">
                         <q>
-                            We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!</q>
+                            We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!
+                        </q>
                     </blockquote>
-                </div>
-                <div class="testimonials test2">
-                    <figure class="theader">
-                        <img alt="Headshot of Irene" src="./images/image-irene.jpg">
-                        <figcaption class="th_span">
-                            <p class="th_p1">Irene Roberts</p>
-                            <p class="th_p2">Verified Buyer</p>
+                </article>
+                <article class="testimonials__testimonial testimonial-2">
+                    <figure class="testimonial__header">
+                        <img class="testimonial__avatar" src="./images/image-irene.jpg" alt="Irene Roberts' Headshot">
+                        <figcaption class="testimonial__info">
+                            <strong class="testimonial__name">Irene Roberts</strong>Verified Buyer
                         </figcaption>
                     </figure>
-                    <blockquote class="tcontent">
+                    <blockquote class="testimonial__quote">
                         <q>
                             Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery.
                         </q>
                     </blockquote>
-                </div>
-                <div class="testimonials test3">
-                    <figure class="theader">
-                        <img alt="Headshot of Anne" src="./images/image-anne.jpg">
-                        <figcaption class="th_span">
-                            <p class="th_p1">Anne Wallace</p>
-                            <p class="th_p2">Verified Buyer</p>
+                </article>
+                <article class="testimonials__testimonial testimonial-3">
+                    <figure class="testimonial__header">
+                        <img class="testimonial__avatar" src="./images/image-anne.jpg" alt="Anne Wallace's Headshot">
+                        <figcaption class="testimonial__info">
+                            <strong class="testimonial__name">Anne Wallace</strong>Verified Buyer
                         </figcaption>
                     </figure>
-                    <blockquote class="tcontent">
+                    <blockquote class="testimonial__quote">
                         <q>
                             Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!
                         </q>
                     </blockquote>
-                </div>
-            </div>
+                </article>
+            </section>
         </main>
     </body>
 </html>
