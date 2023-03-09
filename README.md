@@ -1,16 +1,17 @@
 # Frontend Mentor - Social proof section solution
 
-This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+![](./images/screenshots/desktop-preview.jpg)
+
+This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA).
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
+  - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 
@@ -24,9 +25,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Web%20View.png)
-![](./images/Tab%20View.png)
-![](./images/mobile%20View.png)
+- [Mobile](./images/screenshots/mobile.png)
+- [Tablet](./images/screenshots/tablet.png)
+- [Desktop](./images/screenshots/desktop.png)
 
 ### Links
 
@@ -38,13 +39,11 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
+- Animation
+- BEM
 - Mobile-first workflow
 
-### What I learned
-
-I finally used a mobile-first approach and I would definitely go on with this approach in the future (Insha Allah!).
 
 ## Author
 
