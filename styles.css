@@ -122,7 +122,7 @@ main {
   justify-content: center;
 }
 
-.hero__ratings-listitem {
+.rating {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -200,7 +200,7 @@ main {
   color: var(--white);
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 56.25rem) {
 
   body {
     background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
@@ -220,7 +220,7 @@ main {
     width: 45%;
   }
 
-  .hero__ratings-listitem {
+  .rating {
     align-items: center;
   }
 
